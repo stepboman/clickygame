@@ -16,7 +16,7 @@ let correctGuesses = 0;
 
 let bestScore = 0;
 
-let clickMessage = "Click on an image to earn points, but don't click on any of them more than once!";
+let clickMessage = "Click on an image once!";
 
 
 
@@ -72,7 +72,7 @@ class App extends Component {
 
             correctGuesses = 0;
 
-            clickMessage = "Dang! You already clicked on that one! Now you have to start over!"
+            clickMessage = "Already clicked start over!"
 
 
 
@@ -110,7 +110,7 @@ class App extends Component {
 
             
 
-            clickMessage = "Great! You haven't click on that one yet! Keep going!";
+            clickMessage = "Keep going!";
 
 
 
@@ -156,7 +156,7 @@ class App extends Component {
 
             // Egg on the user to play again
 
-            clickMessage = "WOW!!! You got ALL of them!!! Now, let's see if you can do it again!";
+            clickMessage = "Success";
 
             bestScore = 12;
 
